@@ -4,7 +4,7 @@ import { Heart, Leaf, Eye, Sun } from "lucide-react";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { CTASection } from "@/components/sections/CTASection";
 import { localBusinessJsonLd, breadcrumbJsonLd } from "@/lib/seo";
-import { SITE_URL } from "@/lib/constants";
+import { SITE_URL, BASE_PATH } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "O nama",
@@ -109,7 +109,7 @@ export default function ONamaPage() {
 
             <div className="flex items-center justify-center">
               <Image
-                src="/images/logo.png"
+                src={`${BASE_PATH}/images/logo.png`}
                 alt="Luka Sulc - vlasnik farme Lukina Jaja u Opovu"
                 width={450}
                 height={450}

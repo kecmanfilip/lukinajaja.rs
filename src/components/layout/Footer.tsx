@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Phone, MapPin, Clock } from "lucide-react";
-import { NAV_LINKS, CONTACT, SITE_NAME } from "@/lib/constants";
+import { NAV_LINKS, CONTACT, SITE_NAME, BASE_PATH } from "@/lib/constants";
 
 export function Footer() {
   return (
@@ -12,7 +12,7 @@ export function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Image
-                src="/images/logo.png"
+                src={`${BASE_PATH}/images/logo.png`}
                 alt="Lukina Jaja logo"
                 width={36}
                 height={36}

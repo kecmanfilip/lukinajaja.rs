@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/Button";
+import { BASE_PATH } from "@/lib/constants";
 
 export function AboutPreview() {
   return (
@@ -8,7 +9,7 @@ export function AboutPreview() {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="flex items-center justify-center">
             <Image
-              src="/images/logo.png"
+              src={`${BASE_PATH}/images/logo.png`}
               alt="Luka Sulc - vlasnik farme Lukina Jaja"
               width={400}
               height={400}

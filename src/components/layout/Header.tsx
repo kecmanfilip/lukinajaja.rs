@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { NAV_LINKS, CONTACT } from "@/lib/constants";
+import { NAV_LINKS, CONTACT, BASE_PATH } from "@/lib/constants";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +20,7 @@ export function Header() {
           className="flex items-center gap-2 text-primary hover:text-primary-light transition-colors"
         >
           <Image
-            src="/images/logo.png"
+            src={`${BASE_PATH}/images/logo.png`}
             alt="Lukina Jaja logo"
             width={40}
             height={40}

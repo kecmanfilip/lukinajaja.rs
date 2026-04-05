@@ -1,3 +1,4 @@
+export const BASE_PATH = "/lukinajaja.rs";
 export const SITE_NAME = "Lukina Jaja";
 export const SITE_URL = "https://lukinajaja.rs";
 export const SITE_DESCRIPTION =

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/Button";
+import { BASE_PATH } from "@/lib/constants";
 
 export function Hero() {
   return (
@@ -28,7 +29,7 @@ export function Hero() {
 
           <div className="hidden md:flex items-center justify-center">
             <Image
-              src="/images/logo.png"
+              src={`${BASE_PATH}/images/logo.png`}
               alt="Luka Sulc grli domaca jaja - Lukina Jaja logo"
               width={400}
               height={400}
