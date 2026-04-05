@@ -22,22 +22,13 @@ export function ContactForm() {
   );
 
   const onSubmit = async (data: FormData) => {
-    setStatus("sending");
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
-      });
-      if (res.ok) {
-        setStatus("sent");
-        reset();
-      } else {
-        setStatus("error");
-      }
-    } catch {
-      setStatus("error");
-    }
+    const subject = encodeURIComponent(`Poruka sa sajta od ${data.name}`);
+    const body = encodeURIComponent(
+      `Ime: ${data.name}\nEmail: ${data.email}\n\n${data.message}`
+    );
+    window.location.href = `mailto:lukina.jaja@gmail.com?subject=${subject}&body=${body}`;
+    setStatus("sent");
+    reset();
   };
 
   return (
