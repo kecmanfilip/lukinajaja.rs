@@ -13,7 +13,7 @@ import { SITE_URL } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Najčešća pitanja",
   description:
-    "Odgovori na najčešća pitanja o domaćim jajima iz Opova — cena, naručivanje, dostava, čuvanje i sve što Vas zanima.",
+    "Odgovori na najčešća pitanja o domaćim jajima iz Opova - cena, naručivanje, dostava, čuvanje i sve što Vas zanima.",
   alternates: { canonical: `${SITE_URL}/najcesca-pitanja` },
   openGraph: {
     title: "Najčešća pitanja | Lukina Jaja",
@@ -71,7 +71,7 @@ export default function FAQPage() {
               Imate još pitanja?
             </h2>
             <p className="text-foreground-light mb-5">
-              Slobodno nas kontaktirajte — rado ćemo odgovoriti na sva Vaša
+              Slobodno nas kontaktirajte - rado ćemo odgovoriti na sva Vaša
               pitanja.
             </p>
             <Button href="/kontakt">Kontaktirajte nas</Button>

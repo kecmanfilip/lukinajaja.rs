@@ -6,7 +6,7 @@ const features = [
     icon: <Bird className="w-7 h-7" />,
     title: "Slobodan uzgoj",
     description:
-      "Naše kokoške slobodno šetaju po dvorištu, uživaju u suncu i svežem vazduhu — onako kako priroda nalaže.",
+      "Naše kokoške slobodno šetaju po dvorištu, uživaju u suncu i svežem vazduhu - onako kako priroda nalaže.",
   },
   {
     icon: <ShieldCheck className="w-7 h-7" />,
@@ -24,7 +24,7 @@ const features = [
     icon: <Truck className="w-7 h-7" />,
     title: "Lokalna dostava",
     description:
-      "Dostavljamo u Opovu, Pančevu i okolini. Za Beograd se dogovaramo — javite nam se!",
+      "Dostavljamo u Opovu, Pančevu i okolini. Za Beograd se dogovaramo - javite nam se!",
   },
 ];
 

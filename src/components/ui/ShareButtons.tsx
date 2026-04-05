@@ -13,7 +13,7 @@ export function ShareButtons({ title, slug }: ShareButtonsProps) {
   const [copied, setCopied] = useState(false);
   const url = `${SITE_URL}/blog/${slug}`;
   const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(
-    `${title} — ${url}`
+    `${title} - ${url}`
   )}`;
 
   const copyLink = async () => {

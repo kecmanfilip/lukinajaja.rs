@@ -7,7 +7,7 @@ export const FAQ_ITEMS = [
   {
     question: "Kako mogu naručiti jaja?",
     answer:
-      "Naručivanje je jednostavno — pozovite nas na 069 201 1315 ili pošaljite WhatsApp poruku. Recite nam koliko jaja Vam treba i dogovorićemo termin preuzimanja ili dostave. Možete nas kontaktirati i putem forme na sajtu.",
+      "Naručivanje je jednostavno - pozovite nas na 069 201 1315 ili pošaljite WhatsApp poruku. Recite nam koliko jaja Vam treba i dogovorićemo termin preuzimanja ili dostave. Možete nas kontaktirati i putem forme na sajtu.",
   },
   {
     question: "Da li vršite dostavu?",
@@ -17,7 +17,7 @@ export const FAQ_ITEMS = [
   {
     question: "Odakle dolaze vaša jaja?",
     answer:
-      "Sva naša jaja dolaze sa naše porodične farme u Opovu, u srcu Banata. Kokoške žive u dvorištu na slobodnom uzgoju, imaju pristup travi, suncu i svežem vazduhu tokom celog dana. Nismo industrijska farma — mi smo porodično domaćinstvo.",
+      "Sva naša jaja dolaze sa naše porodične farme u Opovu, u srcu Banata. Kokoške žive u dvorištu na slobodnom uzgoju, imaju pristup travi, suncu i svežem vazduhu tokom celog dana. Nismo industrijska farma - mi smo porodično domaćinstvo.",
   },
   {
     question: "Čime hranite kokoške?",
@@ -32,7 +32,7 @@ export const FAQ_ITEMS = [
   {
     question: "Po čemu se razlikuju vaša jaja od prodavničkih?",
     answer:
-      "Razlika je ogromna — i vidljiva i na ukusu. Naša jaja imaju tamnije, čvršće žumance intenzivnije boje, čvršći belanak i mnogo bogatiji ukus. Kokoške sa slobodnog uzgoja proizvode jaja sa više omega-3 masnih kiselina, vitamina A, E i D u poređenju sa industrijskim jajima.",
+      "Razlika je ogromna - i vidljiva i na ukusu. Naša jaja imaju tamnije, čvršće žumance intenzivnije boje, čvršći belanak i mnogo bogatiji ukus. Kokoške sa slobodnog uzgoja proizvode jaja sa više omega-3 masnih kiselina, vitamina A, E i D u poređenju sa industrijskim jajima.",
   },
   {
     question: "Da li su jaja oplođena?",

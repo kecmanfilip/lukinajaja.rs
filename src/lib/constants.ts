@@ -1,7 +1,7 @@
 export const SITE_NAME = "Lukina Jaja";
 export const SITE_URL = "https://lukinajaja.rs";
 export const SITE_DESCRIPTION =
-  "Sveža domaća jaja sa slobodnog uzgoja iz Opova, Srbija. Bez hormona, bez aditiva — prirodno kao nekad.";
+  "Sveža domaća jaja sa slobodnog uzgoja iz Opova, Srbija. Bez hormona, bez aditiva - prirodno kao nekad.";
 
 export const CONTACT = {
   phone: "069 201 1315",
@@ -9,7 +9,7 @@ export const CONTACT = {
   whatsappUrl:
     "https://wa.me/381692011315?text=Zdravo%2C%20%C5%BEelim%20da%20naru%C4%8Dim%20doma%C4%87a%20jaja!",
   location: "Opovo, Srbija",
-  workingHours: "Svaki dan 8:00 – 20:00",
+  workingHours: "Svaki dan 8:00 - 20:00",
 };
 
 export const NAV_LINKS = [

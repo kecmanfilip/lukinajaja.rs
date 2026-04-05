@@ -33,7 +33,7 @@ export function HowToOrder() {
             Kako naručiti?
           </h2>
           <p className="text-foreground-light max-w-2xl mx-auto">
-            Naručivanje je jednostavno — u tri koraka do svežih domaćih jaja.
+            Naručivanje je jednostavno - u tri koraka do svežih domaćih jaja.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">

@@ -8,7 +8,7 @@ import { localBusinessJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Kontakt",
   description:
-    "Kontaktirajte Lukina Jaja — naručite sveža domaća jaja iz Opova. Pozovite 069 201 1315 ili pošaljite WhatsApp poruku.",
+    "Kontaktirajte Lukina Jaja - naručite sveža domaća jaja iz Opova. Pozovite 069 201 1315 ili pošaljite WhatsApp poruku.",
   alternates: { canonical: `${SITE_URL}/kontakt` },
   openGraph: {
     title: "Kontakt | Lukina Jaja",
@@ -48,7 +48,7 @@ export default function KontaktPage() {
           </h1>
           <p className="text-foreground-light text-lg mb-12 max-w-2xl">
             Želite da naručite sveža domaća jaja ili imate pitanje? Javite nam
-            se — rado ćemo Vam pomoći!
+            se - rado ćemo Vam pomoći!
           </p>
 
           <div className="grid md:grid-cols-2 gap-12">

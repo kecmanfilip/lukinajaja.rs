@@ -23,7 +23,7 @@ const values = [
     icon: <Heart className="w-6 h-6" />,
     title: "Ljubav prema poslu",
     description:
-      "Svaki dan provodimo sa našim kokošakama. To nije posao — to je način života.",
+      "Svaki dan provodimo sa našim kokošakama. To nije posao - to je način života.",
   },
   {
     icon: <Leaf className="w-6 h-6" />,
@@ -41,7 +41,7 @@ const values = [
     icon: <Sun className="w-6 h-6" />,
     title: "Tradicija",
     description:
-      "Uzgajamo kokoške onako kako su to radili naši dedovi — proverenim, tradicionalnim metodama.",
+      "Uzgajamo kokoške onako kako su to radili naši dedovi - proverenim, tradicionalnim metodama.",
   },
 ];
 
@@ -76,7 +76,7 @@ export default function ONamaPage() {
                 Naša priča
               </span>
               <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-                O nama — Lukina Jaja iz Opova
+                O nama - Lukina Jaja iz Opova
               </h1>
               <div className="space-y-4 text-foreground-light leading-relaxed">
                 <p>
@@ -89,19 +89,19 @@ export default function ONamaPage() {
                 <p>
                   Ta ljubav prema prirodnom uzgoju ostala je sa mnom i danas.
                   Odlučio sam da nastavim porodičnu tradiciju i ponudim ljudima
-                  iz okoline ono što je nekada bilo sasvim normalno — pravo,
+                  iz okoline ono što je nekada bilo sasvim normalno - pravo,
                   sveže, domaće jaje.
                 </p>
                 <p>
                   Naše kokoške žive na otvorenom, imaju prostran ispust gde
                   slobodno šetaju, čeprkaju po travi i uživaju u suncu. Hranimo
-                  ih mešavinom kukuruza, pšenice i suncokreta — bez ikakvih
+                  ih mešavinom kukuruza, pšenice i suncokreta - bez ikakvih
                   hormona, antibiotika ili veštačkih dodataka.
                 </p>
                 <p>
                   Verujem da kvalitetna hrana počinje od srećnih životinja.
                   Kada kokoške žive u dobrim uslovima, jaja koja snesu su
-                  neuporedivo bolja — i po ukusu, i po hranjivoj vrednosti.
+                  neuporedivo bolja - i po ukusu, i po hranjivoj vrednosti.
                 </p>
               </div>
             </div>
@@ -160,7 +160,7 @@ export default function ONamaPage() {
             <p className="text-foreground-light leading-relaxed mb-6 max-w-2xl">
               Opovo je malo mesto u opštini Opovo, u Južnobanatskom okrugu. Nalazi
               se na oko 30 km od Pančeva i 50 km od Beograda. Okruženo je
-              plodnim vojvođanskim ravnicama, čistim vazduhom i mirom — idealni
+              plodnim vojvođanskim ravnicama, čistim vazduhom i mirom - idealni
               uslovi za uzgoj zdravih i srećnih kokošaka.
             </p>
             <div className="aspect-[16/9] bg-white rounded-xl border border-border overflow-hidden">
