@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    formats: ["image/webp"],
+  },
+  pageExtensions: ["ts", "tsx", "md", "mdx"],
 };
 
 export default nextConfig;
