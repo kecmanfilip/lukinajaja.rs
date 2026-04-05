@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 
 export function Hero() {
@@ -25,22 +26,15 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Placeholder illustration */}
           <div className="hidden md:flex items-center justify-center">
-            <div className="relative w-80 h-80">
-              <div className="absolute inset-0 bg-gradient-to-br from-secondary/20 via-primary/10 to-secondary/20 rounded-full" />
-              <div className="absolute inset-8 bg-gradient-to-br from-secondary/30 to-secondary-light/30 rounded-full flex items-center justify-center">
-                <svg
-                  className="w-32 h-32 text-secondary/60"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <ellipse cx="12" cy="13" rx="8" ry="10" opacity="0.3" />
-                  <ellipse cx="12" cy="13" rx="7" ry="9" />
-                </svg>
-              </div>
-            </div>
+            <Image
+              src="/images/logo.png"
+              alt="Luka Sulc grli domaca jaja - Lukina Jaja logo"
+              width={400}
+              height={400}
+              priority
+              className="rounded-full shadow-lg"
+            />
           </div>
         </div>
       </div>

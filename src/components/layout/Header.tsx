@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
-import { Menu, X, Egg } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { NAV_LINKS, CONTACT } from "@/lib/constants";
 
 export function Header() {
@@ -18,7 +19,13 @@ export function Header() {
           href="/"
           className="flex items-center gap-2 text-primary hover:text-primary-light transition-colors"
         >
-          <Egg className="w-7 h-7 text-secondary" aria-hidden="true" />
+          <Image
+            src="/images/logo.png"
+            alt="Lukina Jaja logo"
+            width={40}
+            height={40}
+            className="rounded-full"
+          />
           <span className="font-heading text-xl font-bold tracking-tight">
             Lukina Jaja
           </span>

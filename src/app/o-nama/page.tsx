@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Heart, Leaf, Eye, Sun } from "lucide-react";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { CTASection } from "@/components/sections/CTASection";
@@ -106,24 +107,15 @@ export default function ONamaPage() {
               </div>
             </div>
 
-            {/* Placeholder image */}
-            <div className="aspect-[4/3] bg-gradient-to-br from-primary/10 via-background-alt to-secondary/10 rounded-2xl flex items-center justify-center">
-              <div className="text-center p-8">
-                <svg
-                  className="w-24 h-24 mx-auto text-primary/30 mb-4"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  aria-hidden="true"
-                >
-                  <circle cx="12" cy="8" r="5" />
-                  <path d="M20 21a8 8 0 10-16 0" />
-                </svg>
-                <span className="font-accent text-foreground-light text-xl">
-                  Luka Šulc, Opovo
-                </span>
-              </div>
+            <div className="flex items-center justify-center">
+              <Image
+                src="/images/logo.png"
+                alt="Luka Sulc - vlasnik farme Lukina Jaja u Opovu"
+                width={450}
+                height={450}
+                priority
+                className="rounded-2xl shadow-lg"
+              />
             </div>
           </div>
 

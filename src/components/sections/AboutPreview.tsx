@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 
 export function AboutPreview() {
@@ -5,24 +6,14 @@ export function AboutPreview() {
     <section className="py-16 md:py-24">
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-10 items-center">
-          {/* Placeholder image */}
-          <div className="aspect-[4/3] bg-gradient-to-br from-primary/10 via-background-alt to-secondary/10 rounded-2xl flex items-center justify-center">
-            <div className="text-center">
-              <svg
-                className="w-20 h-20 mx-auto text-primary/30 mb-3"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                aria-hidden="true"
-              >
-                <circle cx="12" cy="8" r="5" />
-                <path d="M20 21a8 8 0 10-16 0" />
-              </svg>
-              <span className="font-accent text-foreground-light text-lg">
-                Luka Šulc
-              </span>
-            </div>
+          <div className="flex items-center justify-center">
+            <Image
+              src="/images/logo.png"
+              alt="Luka Sulc - vlasnik farme Lukina Jaja"
+              width={400}
+              height={400}
+              className="rounded-2xl shadow-md"
+            />
           </div>
 
           <div>

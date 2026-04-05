@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Egg, Phone, MapPin, Clock } from "lucide-react";
+import Image from "next/image";
+import { Phone, MapPin, Clock } from "lucide-react";
 import { NAV_LINKS, CONTACT, SITE_NAME } from "@/lib/constants";
 
 export function Footer() {
@@ -10,7 +11,13 @@ export function Footer() {
           {/* Brand */}
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <Egg className="w-6 h-6 text-secondary" aria-hidden="true" />
+              <Image
+                src="/images/logo.png"
+                alt="Lukina Jaja logo"
+                width={36}
+                height={36}
+                className="rounded-full"
+              />
               <span className="font-heading text-lg font-bold text-white">
                 {SITE_NAME}
               </span>
